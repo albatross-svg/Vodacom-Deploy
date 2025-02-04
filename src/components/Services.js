@@ -24,7 +24,7 @@ const Services = () => {
                             <div className="bg-white transition-all ease-in-out duration-400  overflow-hidden text-gray-700 hover:bg-gray-500 hover:text-white rounded-lg shadow-2xl p-3 group">
                                 <div className="m-2 text-justify text-sm">
                                 <img alt="card img" className="rounded-t group-hover:scale-[1.15] transition duration-1000 ease-in-out" src={img} />
-                                    <h2 className="font-semibold my-4 text-2xl text-center">Service 1 Name</h2>
+                                    <h2 className="font-semibold my-4 text-2xl text-center"Network Infrastructure Package</h2>
                                     <p className="text-md font-medium">
                                         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias et possimus in dicta? Veniam neque nemo, exercitationem voluptatibus amet nobis a, velit perferendis perspiciatis deleniti ducimus aliquam, sit ex ad.
                                     </p>
@@ -34,7 +34,7 @@ const Services = () => {
                             <div className="bg-white transition-all ease-in-out duration-400  overflow-hidden text-gray-700 hover:bg-gray-500 hover:text-white rounded-lg shadow-2xl p-3 group">
                                 <div className="m-2 text-justify text-sm">
                                 <img alt="card img" className="rounded-t group-hover:scale-[1.15] transition duration-1000 ease-in-out" src={img2} />
-                                    <h2 className="font-semibold my-4 text-2xl text-center">Service 2 name</h2>
+                                    <h2 className="font-semibold my-4 text-2xl text-center">Building Installation Package</h2>
                                     <p className="text-md font-medium">
                                         Lorem ipsum dolor, sit amet consectetur adipisicing elit. At maxime quam inventore placeat perferendis. Autem perspiciatis, perferendis at quo accusantium, aspernatur laboriosam non atque magni consequuntur voluptas, fuga aperiam cumque.
                                     </p>
@@ -44,7 +44,7 @@ const Services = () => {
                             <div className="bg-white transition-all ease-in-out duration-400  overflow-hidden text-gray-700 hover:bg-gray-500 hover:text-white rounded-lg shadow-2xl p-3 group">
                                 <div className="m-2 text-justify text-sm">
                                     <img alt="card img" className="rounded-t group-hover:scale-[1.15] transition duration-1000 ease-in-out" src={img3} />
-                                    <h2 className="font-semibold my-4 text-2xl text-center ">service 3 name</h2>
+                                    <h2 className="font-semibold my-4 text-2xl text-center ">Computer and Office Equipment Maintenance</h2>
                                     <p className="text-md font-medium">
                                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet nam deleniti cupiditate dicta debitis a aperiam deserunt adipisci, dolorem enim animi quis et non. Amet, tenetur. Eius ducimus sapiente laborum.
                                     </p>
@@ -54,7 +54,7 @@ const Services = () => {
                             <div className="bg-white transition-all ease-in-out duration-400  overflow-hidden text-gray-700 hover:bg-gray-500 hover:text-white rounded-lg shadow-2xl p-3 group">
                                 <div className="m-2 text-justify text-sm">
                                 <img alt="card img" className="rounded-t group-hover:scale-[1.15] transition duration-1000 ease-in-out" src={img4} />
-                                    <h2 className="font-semibold my-4 text-2xl text-center ">service 4 name</h2>
+                                    <h2 className="font-semibold my-4 text-2xl text-center ">PBX (Internal Telephone System) Installation and Support</h2>
                                     <p className="text-md font-medium">
                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam iusto consectetur quod debitis assumenda, quis culpa ex maxime iure quae sunt porro! Modi dicta quos ducimus enim exercitationem reiciendis atque.
                                     </p>
