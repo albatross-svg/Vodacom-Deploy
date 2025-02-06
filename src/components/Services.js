@@ -75,8 +75,29 @@ const Services = () => {
                                 <img alt="card img" className="rounded-t group-hover:scale-[1.15] transition duration-1000 ease-in-out" src={img2} />
                                     <h2 className="font-semibold my-4 text-2xl text-center">Building Installation Package</h2>
                                     <p className="text-md font-medium">
-                                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. At maxime quam inventore placeat perferendis. Autem perspiciatis, perferendis at quo accusantium, aspernatur laboriosam non atque magni consequuntur voluptas, fuga aperiam cumque.
+                                        Our building installation services integrate modern technology into your infrastructure for seamless operation and safety.
                                     </p>
+        <ul className="list-none pl-5 text-md font-medium space-y-2">
+    <li className="relative pl-6 before:absolute before:left-0 before:top-1/2 before:-translate-y-1/2 before:w-4 before:h-[2px] before:bg-blue-600 before:rounded-full">
+        Telecom Line Installation
+    </li>
+    <li className="relative pl-6 before:absolute before:left-0 before:top-1/2 before:-translate-y-1/2 before:w-4 before:h-[2px] before:bg-blue-600 before:rounded-full">
+        Data Installation (Wired and Wireless/Wi-Fi)
+    </li>
+    <li className="relative pl-6 before:absolute before:left-0 before:top-1/2 before:-translate-y-1/2 before:w-4 before:h-[2px] before:bg-blue-600 before:rounded-full">
+        Electrical Installation
+    </li>
+    <li className="relative pl-6 before:absolute before:left-0 before:top-1/2 before:-translate-y-1/2 before:w-4 before:h-[2px] before:bg-blue-600 before:rounded-full">
+        Satellite Dish Installation
+    </li>
+    <li className="relative pl-6 before:absolute before:left-0 before:top-1/2 before:-translate-y-1/2 before:w-4 before:h-[2px] before:bg-blue-600 before:rounded-full">
+        CCTV Security Camera System Installation
+    </li>
+    <li className="relative pl-6 before:absolute before:left-0 before:top-1/2 before:-translate-y-1/2 before:w-4 before:h-[2px] before:bg-blue-600 before:rounded-full">
+        Fire Alarm System Installation
+    </li>
+</ul>
+
                                 </div>
                             </div>
 
