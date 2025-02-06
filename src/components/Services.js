@@ -25,11 +25,10 @@ const Services = () => {
                                 <div className="m-2 text-justify text-sm">
                                 <img alt="card img" className="rounded-t group-hover:scale-[1.15] transition duration-1000 ease-in-out" src={img} />
                                     <h2 className="font-semibold my-4 text-2xl text-center">Network infrastructure Package</h2>
-                                    <p className="text-md font-medium">
-                                        <h2 className="font-semibold my-4 text-2xl text-center">Network Infrastructure Package</h2>
-<p className="text-md font-medium text-justify">
-    We design and implement reliable network systems to keep your organization connected and efficient.
-</p>
+                                    
+                                    <p className="text-md font-medium text-justify">
+                                          We design and implement reliable network systems to keep your organization connected and efficient.
+                                    </p>
 
 <ul className="list-none pl-5 text-md font-medium space-y-2 mt-4">
     <li className="relative pl-6 flex items-center before:w-2 before:h-2 before:bg-blue-600 before:rounded-full before:absolute before:left-0 before:top-1/2 before:-translate-y-1/2 after:w-4 after:h-4 after:border after:border-blue-600 after:rounded-full after:absolute after:-left-1 after:top-1/2 after:-translate-y-1/2">
