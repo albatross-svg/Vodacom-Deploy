@@ -28,6 +28,14 @@ const Services = () => {
                                     <p className="text-md font-medium">
                                         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias et possimus in dicta? Veniam neque nemo, exercitationem voluptatibus amet nobis a, velit perferendis perspiciatis deleniti ducimus aliquam, sit ex ad.
                                     </p>
+            <ul className="list-disc pl-5 text-md font-medium">
+            <li>Telecom Line Installation</li>
+            <li>Data Installation (Wired and Wireless/Wi-Fi)</li>
+            <li>Electrical Installation</li>
+            <li>Satellite Dish Installation</li>
+            <li>CCTV Security Camera System Installation</li>
+            <li>Fire Alarm System Installation</li>
+        </ul>
                                 </div>
                             </div>
 
