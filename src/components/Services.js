@@ -30,20 +30,39 @@ const Services = () => {
                                           We design and implement reliable network systems to keep your organization connected and efficient.
                                     </p>
 
-<ul className="list-none pl-5 text-md font-medium space-y-2 mt-4">
-    <li className="relative pl-6 flex items-center before:w-2 before:h-2 before:bg-blue-600 before:rounded-full before:absolute before:left-0 before:top-1/2 before:-translate-y-1/2 after:w-4 after:h-4 after:border after:border-blue-600 after:rounded-full after:absolute after:-left-1 after:top-1/2 after:-translate-y-1/2">
-        Local Area Network (LAN) Installation
+ 
+
+<ul className="list-none pl-0 text-md font-medium space-y-3 mt-4">
+    <li className="flex items-start">
+        <span className="flex-shrink-0 w-4 h-4 relative mt-1">
+            <span className="w-2 h-2 bg-blue-600 rounded-full absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"></span>
+            <span className="w-4 h-4 border border-blue-600 rounded-full absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"></span>
+        </span>
+        <span className="pl-3">Local Area Network (LAN) Installation</span>
     </li>
-    <li className="relative pl-6 flex items-center before:w-2 before:h-2 before:bg-blue-600 before:rounded-full before:absolute before:left-0 before:top-1/2 before:-translate-y-1/2 after:w-4 after:h-4 after:border after:border-blue-600 after:rounded-full after:absolute after:-left-1 after:top-1/2 after:-translate-y-1/2">
-        Wide Area Network (WAN) Installation
+    <li className="flex items-start">
+        <span className="flex-shrink-0 w-4 h-4 relative mt-1">
+            <span className="w-2 h-2 bg-blue-600 rounded-full absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"></span>
+            <span className="w-4 h-4 border border-blue-600 rounded-full absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"></span>
+        </span>
+        <span className="pl-3">Wide Area Network (WAN) Installation</span>
     </li>
-    <li className="relative pl-6 flex items-center before:w-2 before:h-2 before:bg-blue-600 before:rounded-full before:absolute before:left-0 before:top-1/2 before:-translate-y-1/2 after:w-4 after:h-4 after:border after:border-blue-600 after:rounded-full after:absolute after:-left-1 after:top-1/2 after:-translate-y-1/2">
-        Wireless Network (Wi-Fi) Setup
+    <li className="flex items-start">
+        <span className="flex-shrink-0 w-4 h-4 relative mt-1">
+            <span className="w-2 h-2 bg-blue-600 rounded-full absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"></span>
+            <span className="w-4 h-4 border border-blue-600 rounded-full absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"></span>
+        </span>
+        <span className="pl-3">Wireless Network (Wi-Fi) Setup</span>
     </li>
-    <li className="relative pl-6 flex items-center before:w-2 before:h-2 before:bg-blue-600 before:rounded-full before:absolute before:left-0 before:top-1/2 before:-translate-y-1/2 after:w-4 after:h-4 after:border after:border-blue-600 after:rounded-full after:absolute after:-left-1 after:top-1/2 after:-translate-y-1/2">
-        Data Center Ventilation and Air Conditioning System Design and Installation
+    <li className="flex items-start">
+        <span className="flex-shrink-0 w-4 h-4 relative mt-1">
+            <span className="w-2 h-2 bg-blue-600 rounded-full absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"></span>
+            <span className="w-4 h-4 border border-blue-600 rounded-full absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"></span>
+        </span>
+        <span className="pl-3">Data Center Ventilation and Air Conditioning System Design and Installation</span>
     </li>
 </ul>
+
 
                                    
 
