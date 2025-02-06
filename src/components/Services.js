@@ -28,26 +28,27 @@ const Services = () => {
                                     <p className="text-md font-medium">
                                         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias et possimus in dicta? Veniam neque nemo, exercitationem voluptatibus amet nobis a, velit perferendis perspiciatis deleniti ducimus aliquam, sit ex ad.
                                     </p>
-         <ul className="list-none pl-5 text-md font-medium space-y-2">
-    <li className="relative pl-6 before:absolute before:left-0 before:top-1/2 before:-translate-y-1/2 before:w-4 before:h-[2px] before:bg-blue-600 before:rounded-full">
+        <ul className="list-none pl-5 text-md font-medium space-y-2">
+    <li className="relative pl-6 flex items-center before:w-2 before:h-2 before:bg-blue-600 before:rounded-full before:absolute before:left-0 before:top-1/2 before:-translate-y-1/2 after:w-4 after:h-4 after:border after:border-blue-600 after:rounded-full after:absolute after:-left-1 after:top-1/2 after:-translate-y-1/2">
         Telecom Line Installation
     </li>
-    <li className="relative pl-6 before:absolute before:left-0 before:top-1/2 before:-translate-y-1/2 before:w-4 before:h-[2px] before:bg-blue-600 before:rounded-full">
+    <li className="relative pl-6 flex items-center before:w-2 before:h-2 before:bg-blue-600 before:rounded-full before:absolute before:left-0 before:top-1/2 before:-translate-y-1/2 after:w-4 after:h-4 after:border after:border-blue-600 after:rounded-full after:absolute after:-left-1 after:top-1/2 after:-translate-y-1/2">
         Data Installation (Wired and Wireless/Wi-Fi)
     </li>
-    <li className="relative pl-6 before:absolute before:left-0 before:top-1/2 before:-translate-y-1/2 before:w-4 before:h-[2px] before:bg-blue-600 before:rounded-full">
+    <li className="relative pl-6 flex items-center before:w-2 before:h-2 before:bg-blue-600 before:rounded-full before:absolute before:left-0 before:top-1/2 before:-translate-y-1/2 after:w-4 after:h-4 after:border after:border-blue-600 after:rounded-full after:absolute after:-left-1 after:top-1/2 after:-translate-y-1/2">
         Electrical Installation
     </li>
-    <li className="relative pl-6 before:absolute before:left-0 before:top-1/2 before:-translate-y-1/2 before:w-4 before:h-[2px] before:bg-blue-600 before:rounded-full">
+    <li className="relative pl-6 flex items-center before:w-2 before:h-2 before:bg-blue-600 before:rounded-full before:absolute before:left-0 before:top-1/2 before:-translate-y-1/2 after:w-4 after:h-4 after:border after:border-blue-600 after:rounded-full after:absolute after:-left-1 after:top-1/2 after:-translate-y-1/2">
         Satellite Dish Installation
     </li>
-    <li className="relative pl-6 before:absolute before:left-0 before:top-1/2 before:-translate-y-1/2 before:w-4 before:h-[2px] before:bg-blue-600 before:rounded-full">
+    <li className="relative pl-6 flex items-center before:w-2 before:h-2 before:bg-blue-600 before:rounded-full before:absolute before:left-0 before:top-1/2 before:-translate-y-1/2 after:w-4 after:h-4 after:border after:border-blue-600 after:rounded-full after:absolute after:-left-1 after:top-1/2 after:-translate-y-1/2">
         CCTV Security Camera System Installation
     </li>
-    <li className="relative pl-6 before:absolute before:left-0 before:top-1/2 before:-translate-y-1/2 before:w-4 before:h-[2px] before:bg-blue-600 before:rounded-full">
+    <li className="relative pl-6 flex items-center before:w-2 before:h-2 before:bg-blue-600 before:rounded-full before:absolute before:left-0 before:top-1/2 before:-translate-y-1/2 after:w-4 after:h-4 after:border after:border-blue-600 after:rounded-full after:absolute after:-left-1 after:top-1/2 after:-translate-y-1/2">
         Fire Alarm System Installation
     </li>
 </ul>
+
 
                                 </div>
                             </div>
