@@ -28,14 +28,27 @@ const Services = () => {
                                     <p className="text-md font-medium">
                                         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias et possimus in dicta? Veniam neque nemo, exercitationem voluptatibus amet nobis a, velit perferendis perspiciatis deleniti ducimus aliquam, sit ex ad.
                                     </p>
-            <ul className="list-disc pl-5 text-md font-medium">
-            <li>Telecom Line Installation</li>
-            <li>Data Installation (Wired and Wireless/Wi-Fi)</li>
-            <li>Electrical Installation</li>
-            <li>Satellite Dish Installation</li>
-            <li>CCTV Security Camera System Installation</li>
-            <li>Fire Alarm System Installation</li>
-        </ul>
+         <ul className="list-none pl-5 text-md font-medium space-y-2">
+    <li className="relative pl-6 before:absolute before:left-0 before:top-1/2 before:-translate-y-1/2 before:w-4 before:h-[2px] before:bg-blue-600 before:rounded-full">
+        Telecom Line Installation
+    </li>
+    <li className="relative pl-6 before:absolute before:left-0 before:top-1/2 before:-translate-y-1/2 before:w-4 before:h-[2px] before:bg-blue-600 before:rounded-full">
+        Data Installation (Wired and Wireless/Wi-Fi)
+    </li>
+    <li className="relative pl-6 before:absolute before:left-0 before:top-1/2 before:-translate-y-1/2 before:w-4 before:h-[2px] before:bg-blue-600 before:rounded-full">
+        Electrical Installation
+    </li>
+    <li className="relative pl-6 before:absolute before:left-0 before:top-1/2 before:-translate-y-1/2 before:w-4 before:h-[2px] before:bg-blue-600 before:rounded-full">
+        Satellite Dish Installation
+    </li>
+    <li className="relative pl-6 before:absolute before:left-0 before:top-1/2 before:-translate-y-1/2 before:w-4 before:h-[2px] before:bg-blue-600 before:rounded-full">
+        CCTV Security Camera System Installation
+    </li>
+    <li className="relative pl-6 before:absolute before:left-0 before:top-1/2 before:-translate-y-1/2 before:w-4 before:h-[2px] before:bg-blue-600 before:rounded-full">
+        Fire Alarm System Installation
+    </li>
+</ul>
+
                                 </div>
                             </div>
 
