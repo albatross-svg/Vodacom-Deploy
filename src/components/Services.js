@@ -77,38 +77,87 @@ const Services = () => {
                                     <p className="text-md font-medium">
                                         Our building installation services integrate modern technology into your infrastructure for seamless operation and safety.
                                     </p>
-        <ul className="list-none pl-5 text-md font-medium space-y-2">
-    <li className="relative pl-6 flex items-center before:w-2 before:h-2 before:bg-blue-600 before:rounded-full before:absolute before:left-0 before:top-1/2 before:-translate-y-1/2 after:w-4 after:h-4 after:border after:border-blue-600 after:rounded-full after:absolute after:-left-1 after:top-1/2 after:-translate-y-1/2">
-        Telecom Line Installation
+        
+<ul className="list-none pl-0 text-md font-medium space-y-3 mt-4">
+    <li className="flex items-start">
+        <span className="flex-shrink-0 w-4 h-4 relative mt-1">
+            <span className="w-2 h-2 bg-blue-600 rounded-full absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"></span>
+            <span className="w-4 h-4 border border-blue-600 rounded-full absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"></span>
+        </span>
+        <span className="pl-3">Telecom Line Installation</span>
     </li>
-    <li className="relative pl-6 flex items-center before:w-2 before:h-2 before:bg-blue-600 before:rounded-full before:absolute before:left-0 before:top-1/2 before:-translate-y-1/2 after:w-4 after:h-4 after:border after:border-blue-600 after:rounded-full after:absolute after:-left-1 after:top-1/2 after:-translate-y-1/2">
-        Data Installation (Wired and Wireless/Wi-Fi)
+    <li className="flex items-start">
+        <span className="flex-shrink-0 w-4 h-4 relative mt-1">
+            <span className="w-2 h-2 bg-blue-600 rounded-full absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"></span>
+            <span className="w-4 h-4 border border-blue-600 rounded-full absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"></span>
+        </span>
+        <span className="pl-3">Data Installation (Wired and Wireless/Wi-Fi)</span>
     </li>
-    <li className="relative pl-6 flex items-center before:w-2 before:h-2 before:bg-blue-600 before:rounded-full before:absolute before:left-0 before:top-1/2 before:-translate-y-1/2 after:w-4 after:h-4 after:border after:border-blue-600 after:rounded-full after:absolute after:-left-1 after:top-1/2 after:-translate-y-1/2">
-        Electrical Installation
+    <li className="flex items-start">
+        <span className="flex-shrink-0 w-4 h-4 relative mt-1">
+            <span className="w-2 h-2 bg-blue-600 rounded-full absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"></span>
+            <span className="w-4 h-4 border border-blue-600 rounded-full absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"></span>
+        </span>
+        <span className="pl-3">Electrical Installation</span>
     </li>
-    <li className="relative pl-6 flex items-center before:w-2 before:h-2 before:bg-blue-600 before:rounded-full before:absolute before:left-0 before:top-1/2 before:-translate-y-1/2 after:w-4 after:h-4 after:border after:border-blue-600 after:rounded-full after:absolute after:-left-1 after:top-1/2 after:-translate-y-1/2">
-        Satellite Dish Installation
+    <li className="flex items-start">
+        <span className="flex-shrink-0 w-4 h-4 relative mt-1">
+            <span className="w-2 h-2 bg-blue-600 rounded-full absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"></span>
+            <span className="w-4 h-4 border border-blue-600 rounded-full absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"></span>
+        </span>
+        <span className="pl-3">Satellite Dish Installation</span>
     </li>
-    <li className="relative pl-6 flex items-center before:w-2 before:h-2 before:bg-blue-600 before:rounded-full before:absolute before:left-0 before:top-1/2 before:-translate-y-1/2 after:w-4 after:h-4 after:border after:border-blue-600 after:rounded-full after:absolute after:-left-1 after:top-1/2 after:-translate-y-1/2">
-        CCTV Security Camera System Installation
+    <li className="flex items-start">
+        <span className="flex-shrink-0 w-4 h-4 relative mt-1">
+            <span className="w-2 h-2 bg-blue-600 rounded-full absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"></span>
+            <span className="w-4 h-4 border border-blue-600 rounded-full absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"></span>
+        </span>
+        <span className="pl-3">CCTV Security Camera System Installation</span>
     </li>
-    <li className="relative pl-6 flex items-center before:w-2 before:h-2 before:bg-blue-600 before:rounded-full before:absolute before:left-0 before:top-1/2 before:-translate-y-1/2 after:w-4 after:h-4 after:border after:border-blue-600 after:rounded-full after:absolute after:-left-1 after:top-1/2 after:-translate-y-1/2">
-        Fire Alarm System Installation
+    <li className="flex items-start">
+        <span className="flex-shrink-0 w-4 h-4 relative mt-1">
+            <span className="w-2 h-2 bg-blue-600 rounded-full absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"></span>
+            <span className="w-4 h-4 border border-blue-600 rounded-full absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"></span>
+        </span>
+        <span className="pl-3">Fire Alarm System Installation</span>
     </li>
 </ul>
-
-
-                                </div>
+                            </div>
                             </div>
 
                             <div className="bg-white transition-all ease-in-out duration-400  overflow-hidden text-gray-700 hover:bg-gray-500 hover:text-white rounded-lg shadow-2xl p-3 group">
                                 <div className="m-2 text-justify text-sm">
                                     <img alt="card img" className="rounded-t group-hover:scale-[1.15] transition duration-1000 ease-in-out" src={img3} />
                                     <h2 className="font-semibold my-4 text-2xl text-center ">Computer and Office Equipment Maintenance</h2>
-                                    <p className="text-md font-medium">
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet nam deleniti cupiditate dicta debitis a aperiam deserunt adipisci, dolorem enim animi quis et non. Amet, tenetur. Eius ducimus sapiente laborum.
-                                    </p>
+                             
+<p className="text-md font-medium text-left">
+    We ensure your office equipment functions optimally with professional maintenance and support services.
+</p>
+
+<ul className="list-none pl-0 text-md font-medium space-y-3 mt-4">
+    <li className="flex items-start">
+        <span className="flex-shrink-0 w-4 h-4 relative mt-1">
+            <span className="w-2 h-2 bg-blue-600 rounded-full absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"></span>
+            <span className="w-4 h-4 border border-blue-600 rounded-full absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"></span>
+        </span>
+        <span className="pl-3">Laptop and Desktop Maintenance</span>
+    </li>
+    <li className="flex items-start">
+        <span className="flex-shrink-0 w-4 h-4 relative mt-1">
+            <span className="w-2 h-2 bg-blue-600 rounded-full absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"></span>
+            <span className="w-4 h-4 border border-blue-600 rounded-full absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"></span>
+        </span>
+        <span className="pl-3">Printer, Copier, and Fax Machine Repair</span>
+    </li>
+    <li className="flex items-start">
+        <span className="flex-shrink-0 w-4 h-4 relative mt-1">
+            <span className="w-2 h-2 bg-blue-600 rounded-full absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"></span>
+            <span className="w-4 h-4 border border-blue-600 rounded-full absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"></span>
+        </span>
+        <span className="pl-3">Periodic ICT Support under Contractual Agreements</span>
+    </li>
+</ul>
+
                                 </div>
                             </div>
 
@@ -116,9 +165,35 @@ const Services = () => {
                                 <div className="m-2 text-justify text-sm">
                                 <img alt="card img" className="rounded-t group-hover:scale-[1.15] transition duration-1000 ease-in-out" src={img4} />
                                     <h2 className="font-semibold my-4 text-2xl text-center ">PBX (Internal Telephone System) Installation and Support</h2>
-                                    <p className="text-md font-medium">
-                                       Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam iusto consectetur quod debitis assumenda, quis culpa ex maxime iure quae sunt porro! Modi dicta quos ducimus enim exercitationem reiciendis atque.
-                                    </p>
+                                     
+<p className="text-md font-medium text-left">
+    We supply, install, and maintain high-quality internal telephone systems to enhance communication within your organization, tailored to your budget and business requirements.
+</p>
+
+<ul className="list-none pl-0 text-md font-medium space-y-3 mt-4">
+    <li className="flex items-start">
+        <span className="flex-shrink-0 w-4 h-4 relative mt-1">
+            <span className="w-2 h-2 bg-blue-600 rounded-full absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"></span>
+            <span className="w-4 h-4 border border-blue-600 rounded-full absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"></span>
+        </span>
+        <span className="pl-3">PBX System Supply and Installation</span>
+    </li>
+    <li className="flex items-start">
+        <span className="flex-shrink-0 w-4 h-4 relative mt-1">
+            <span className="w-2 h-2 bg-blue-600 rounded-full absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"></span>
+            <span className="w-4 h-4 border border-blue-600 rounded-full absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"></span>
+        </span>
+        <span className="pl-3">VoIP (Voice over IP) System Setup</span>
+    </li>
+    <li className="flex items-start">
+        <span className="flex-shrink-0 w-4 h-4 relative mt-1">
+            <span className="w-2 h-2 bg-blue-600 rounded-full absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"></span>
+            <span className="w-4 h-4 border border-blue-600 rounded-full absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"></span>
+        </span>
+        <span className="pl-3">PBX Maintenance and Support</span>
+    </li>
+</ul>
+
                                 </div>
                             </div>                    
                         </div>
