@@ -13,7 +13,11 @@ const Intro = () => {
                         </div>
                         <div className="flex-col my-4 text-center lg:text-left lg:my-0 lg:justify-end w-full lg:w-1/2 px-8" data-aos="zoom-in" data-aos-delay="500">
                             
-                            <h3 className="text-3xl  text-blue-900 font-bold">ABOUT US</h3>
+                           
+        <h3 className="text-3xl text-blue-900 font-bold relative inline-block after:content-[''] after:block after:w-16 after:h-1 after:bg-blue-900 after:mx-auto after:mt-2">
+    ABOUT US
+</h3>
+
                             <div>
                                 <p className='my-3 text-xl text-gray-600 font-semibold'>At Vodacom Trading, our core focus is ensuring seamless connectivity and operational efficiency through our expertise in network design and implementation. From setting up robust networking systems to providing comprehensive computer maintenance and support services, we are your partner in keeping your technology infrastructure running smoothly. Additionally, we specialize in building installations, ensuring that electrical and networking systems in buildings are professionally installed and fully optimized for performance.
 
