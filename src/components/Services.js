@@ -26,28 +26,27 @@ const Services = () => {
                                 <img alt="card img" className="rounded-t group-hover:scale-[1.15] transition duration-1000 ease-in-out" src={img} />
                                     <h2 className="font-semibold my-4 text-2xl text-center">Network infrastructure Package</h2>
                                     <p className="text-md font-medium">
-                                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias et possimus in dicta? Veniam neque nemo, exercitationem voluptatibus amet nobis a, velit perferendis perspiciatis deleniti ducimus aliquam, sit ex ad.
-                                    </p>
-        <ul className="list-none pl-5 text-md font-medium space-y-2">
+                                        <h2 className="font-semibold my-4 text-2xl text-center">Network Infrastructure Package</h2>
+<p className="text-md font-medium text-justify">
+    We design and implement reliable network systems to keep your organization connected and efficient.
+</p>
+
+<ul className="list-none pl-5 text-md font-medium space-y-2 mt-4">
     <li className="relative pl-6 flex items-center before:w-2 before:h-2 before:bg-blue-600 before:rounded-full before:absolute before:left-0 before:top-1/2 before:-translate-y-1/2 after:w-4 after:h-4 after:border after:border-blue-600 after:rounded-full after:absolute after:-left-1 after:top-1/2 after:-translate-y-1/2">
-        Telecom Line Installation
+        Local Area Network (LAN) Installation
     </li>
     <li className="relative pl-6 flex items-center before:w-2 before:h-2 before:bg-blue-600 before:rounded-full before:absolute before:left-0 before:top-1/2 before:-translate-y-1/2 after:w-4 after:h-4 after:border after:border-blue-600 after:rounded-full after:absolute after:-left-1 after:top-1/2 after:-translate-y-1/2">
-        Data Installation (Wired and Wireless/Wi-Fi)
+        Wide Area Network (WAN) Installation
     </li>
     <li className="relative pl-6 flex items-center before:w-2 before:h-2 before:bg-blue-600 before:rounded-full before:absolute before:left-0 before:top-1/2 before:-translate-y-1/2 after:w-4 after:h-4 after:border after:border-blue-600 after:rounded-full after:absolute after:-left-1 after:top-1/2 after:-translate-y-1/2">
-        Electrical Installation
+        Wireless Network (Wi-Fi) Setup
     </li>
     <li className="relative pl-6 flex items-center before:w-2 before:h-2 before:bg-blue-600 before:rounded-full before:absolute before:left-0 before:top-1/2 before:-translate-y-1/2 after:w-4 after:h-4 after:border after:border-blue-600 after:rounded-full after:absolute after:-left-1 after:top-1/2 after:-translate-y-1/2">
-        Satellite Dish Installation
-    </li>
-    <li className="relative pl-6 flex items-center before:w-2 before:h-2 before:bg-blue-600 before:rounded-full before:absolute before:left-0 before:top-1/2 before:-translate-y-1/2 after:w-4 after:h-4 after:border after:border-blue-600 after:rounded-full after:absolute after:-left-1 after:top-1/2 after:-translate-y-1/2">
-        CCTV Security Camera System Installation
-    </li>
-    <li className="relative pl-6 flex items-center before:w-2 before:h-2 before:bg-blue-600 before:rounded-full before:absolute before:left-0 before:top-1/2 before:-translate-y-1/2 after:w-4 after:h-4 after:border after:border-blue-600 after:rounded-full after:absolute after:-left-1 after:top-1/2 after:-translate-y-1/2">
-        Fire Alarm System Installation
+        Data Center Ventilation and Air Conditioning System Design and Installation
     </li>
 </ul>
+
+                                   
 
 
                                 </div>
