@@ -33,13 +33,13 @@ const NavBar = () => {
                         {isOpen ? (
                             <path fillRule="evenodd" clipRule="evenodd" d="M18.278 16.864a1 1 0 0 1-1.414 1.414l-4.829-4.828-4.828 4.828a1 1 0 0 1-1.414-1.414l4.828-4.829-4.828-4.828a1 1 0 0 1 1.414-1.414l4.829 4.828 4.828-4.828a1 1 0 1 1 1.414 1.414l-4.828 4.829 4.828 4.828z" />
                         ) : (
-                            <path fillRule="evenodd" d="M4 5h16a1 1 0 0 1 0 2H4a1 1 0 1 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 1 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 1 1 0-2z" />
+                            <path fillRule="evenodd" d="M4 5h16a1 1 0 0 1 0 2H4a1 1 0 1 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 1 1 0-2z" />
                         )}
                     </svg>
                 </button>
 
-                {/* Desktop Navigation */}
-                <div className="hidden lg:flex flex-1 justify-evenly items-center text-lg font-semibold">
+                {/* Desktop Navigation (Right-Aligned & Closer Spacing) */}
+                <div className="hidden lg:flex space-x-8 ml-auto items-center text-lg font-semibold">
                     <HashLink smooth to="/#hero" className="text-blue-900 hover:text-gray-600 transition">Home</HashLink>
                     <HashLink smooth to="/#about" className="text-blue-900 hover:text-gray-600 transition">About</HashLink>
                     <HashLink smooth to="/#services" className="text-blue-900 hover:text-gray-600 transition">Services</HashLink>
