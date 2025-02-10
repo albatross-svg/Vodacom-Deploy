@@ -39,10 +39,10 @@ const Footer = () => {
                             </ul>
                         </div>
 
-                        {/* 3rd block - Our Services (Right) */}
-                        <div className="w-full lg:w-1/3 text-right">
+                        {/* 3rd block - Our Services (Shifted Left + Centered List) */}
+                        <div className="w-full lg:w-1/3 lg:ml-[-3rem] text-center">
                             <h6 className="text-[#013289] text-xl font-bold mb-4">OUR SERVICES</h6>
-                            <ul className="text-md">
+                            <ul className="text-md inline-block text-left">
                                 <li className="mb-2">
                                     <Link to="#" className="text-[#013289] hover:text-gray-900 hover:tracking-wider transition duration-250 ease-in-out">Service 1 Name</Link>
                                 </li>
