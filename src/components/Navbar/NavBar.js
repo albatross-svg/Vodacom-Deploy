@@ -43,12 +43,14 @@ const NavBar = () => {
 
                     {/* Desktop Navigation */}
                     <div className="hidden space-x-6 lg:inline-block p-5">
+                        <HashLink smooth to="/#home" className="text-blue-900">Home</HashLink>
                         <NavLinks />
                     </div>
 
                     {/* 📱 Mobile Navigation Menu (Fixed Issue with Transitions) */}
                     <div className={`absolute left-0 w-full bg-white shadow-xl rounded-md p-6 transition-all duration-300 transform lg:hidden ${isOpen ? 'translate-y-0 opacity-100' : '-translate-y-5 opacity-0 pointer-events-none'}`}>
                         <div className="flex flex-col space-y-6">
+                            <HashLink smooth to="/#home" className="text-blue-900">Home</HashLink>
                             <NavLinks />
                         </div>
                     </div>
