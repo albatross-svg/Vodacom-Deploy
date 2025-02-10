@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import NavLinks from '../Navbar/NavLinks';
 import { HashLink } from 'react-router-hash-link';
 
 const NavBar = () => {
@@ -20,38 +19,41 @@ const NavBar = () => {
 
     return (
         <nav className={`fixed top-0 w-full z-30 transition duration-300 ease-in-out mb-16 ${!top && 'bg-white shadow-lg'}`}>
-            <div className="flex flex-row justify-between items-center py-2">
-                <div className="flex flex-row justify-center md:px-12 md:mx-12 items-center text-center font-semibold">
+            <div className="flex flex-row justify-between items-center py-3 px-6 md:px-16">
+                {/* Logo */}
+                <div className="text-center font-semibold">
                     <HashLink smooth to="/#hero">
                         <h1 className="font-extrabold text-4xl text-blue-900">ORG Name AND LOGO</h1>
                     </HashLink>
                 </div>
 
-                <div className="group flex flex-col items-center">
-                    <button className="p-2 rounded-lg lg:hidden text-blue-900" onClick={handleClick}>
-                        <svg className="h-6 w-6 fill-current" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-                            {isOpen ? (
-                                <path fillRule="evenodd" clipRule="evenodd" d="M18.278 16.864a1 1 0 0 1-1.414 1.414l-4.829-4.828-4.828 4.828a1 1 0 0 1-1.414-1.414l4.828-4.829-4.828-4.828a1 1 0 0 1 1.414-1.414l4.829 4.828 4.828-4.828a1 1 0 1 1 1.414 1.414l-4.828 4.829 4.828 4.828z" />
-                            ) : (
-                                <path fillRule="evenodd" d="M4 5h16a1 1 0 0 1 0 2H4a1 1 0 1 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 1 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 1 1 0-2z" />
-                            )}
-                        </svg>
-                    </button>
+                {/* Mobile Toggle Button */}
+                <button className="p-2 rounded-lg lg:hidden text-blue-900" onClick={handleClick}>
+                    <svg className="h-6 w-6 fill-current" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        {isOpen ? (
+                            <path fillRule="evenodd" clipRule="evenodd" d="M18.278 16.864a1 1 0 0 1-1.414 1.414l-4.829-4.828-4.828 4.828a1 1 0 0 1-1.414-1.414l4.828-4.829-4.828-4.828a1 1 0 0 1 1.414-1.414l4.829 4.828 4.828-4.828a1 1 0 1 1 1.414 1.414l-4.828 4.829 4.828 4.828z" />
+                        ) : (
+                            <path fillRule="evenodd" d="M4 5h16a1 1 0 0 1 0 2H4a1 1 0 1 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 1 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 1 1 0-2z" />
+                        )}
+                    </svg>
+                </button>
 
-                    {/* Desktop Navigation */}
-                    <div className='hidden space-x-6 lg:flex items-center p-5'>
-                        <HashLink smooth to="/#hero" className="text-blue-900 hover:text-gray-600 font-semibold">Home</HashLink>
-                        <NavLinks />
-                    </div>
+                {/* Desktop Navigation */}
+                <div className="hidden lg:flex flex-1 justify-evenly items-center text-lg font-semibold">
+                    <HashLink smooth to="/#hero" className="text-blue-900 hover:text-gray-600 transition">Home</HashLink>
+                    <HashLink smooth to="/#about" className="text-blue-900 hover:text-gray-600 transition">About</HashLink>
+                    <HashLink smooth to="/#services" className="text-blue-900 hover:text-gray-600 transition">Services</HashLink>
+                    <HashLink smooth to="/#portfolio" className="text-blue-900 hover:text-gray-600 transition">Portfolio</HashLink>
+                    <HashLink smooth to="/#contact" className="text-blue-900 hover:text-gray-600 transition">Contact Us</HashLink>
+                </div>
 
-                    {/* Mobile Navigation */}
-                    <div className={`fixed transition-transform duration-300 ease-in-out flex justify-center left-0 w-full h-auto rounded-md p-24 bg-white lg:hidden shadow-xl top-14 ${isOpen ? "block" : "hidden"}`}>
-                        <div className='flex flex-col space-y-6 items-center'>
-                            <HashLink smooth to="/#hero" className="text-blue-900 hover:text-gray-600 font-semibold">Home</HashLink>
-                            <NavLinks />
-                        </div>
-                    </div>
-
+                {/* Mobile Navigation */}
+                <div className={`fixed transition-transform duration-300 ease-in-out flex flex-col justify-center items-center w-full bg-white lg:hidden shadow-xl top-14 p-6 ${isOpen ? "block" : "hidden"}`}>
+                    <HashLink smooth to="/#hero" className="text-blue-900 hover:text-gray-600 transition py-2">Home</HashLink>
+                    <HashLink smooth to="/#about" className="text-blue-900 hover:text-gray-600 transition py-2">About</HashLink>
+                    <HashLink smooth to="/#services" className="text-blue-900 hover:text-gray-600 transition py-2">Services</HashLink>
+                    <HashLink smooth to="/#portfolio" className="text-blue-900 hover:text-gray-600 transition py-2">Portfolio</HashLink>
+                    <HashLink smooth to="/#contact" className="text-blue-900 hover:text-gray-600 transition py-2">Contact Us</HashLink>
                 </div>
             </div>
         </nav>
