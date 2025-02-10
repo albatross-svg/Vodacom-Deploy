@@ -1,4 +1,5 @@
-  
+import React from "react";
+import
 
 // Store image paths in an array with .jpeg format
 const images = [
