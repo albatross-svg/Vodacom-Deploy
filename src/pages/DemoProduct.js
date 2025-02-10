@@ -20,6 +20,7 @@ const DemoProduct = () => {
 
     const [errors, setErrors] = useState({});
 
+    // Handle form data changes
     const handleChange = (e) => {
         const { name, value, type, checked } = e.target;
 
@@ -38,10 +39,12 @@ const DemoProduct = () => {
         }
     };
 
+    // Clear form errors
     const clearErrors = () => {
         setErrors({});
     };
 
+    // Clear form input fields
     const clearInput = () => {
         setFormData({
             firstName: '',
@@ -53,15 +56,16 @@ const DemoProduct = () => {
         });
     };
 
+    // Handle form submission
     const handleSubmit = async (e) => {
         e.preventDefault();
 
-        // Get the submit button and disable it during submission
+        // Disable the submit button to prevent multiple submissions
         const submitBtn = document.getElementById('submitBtn');
         submitBtn.disabled = true;
         submitBtn.innerHTML = 'Loading...';
 
-        // Prepare form data for API submission
+        // Prepare form data for backend API submission
         const formDataToSend = new FormData();
         formDataToSend.append('first_name', formData.firstName);
         formDataToSend.append('last_name', formData.lastName);
@@ -95,13 +99,13 @@ const DemoProduct = () => {
             emailjs.init('Hlv4jON0yap-umwVG'); // Your EmailJS Public Key
             await emailjs.send(
                 'service_6dnc12f',   // Your EmailJS Service ID
-                'template_ttpebks',  // Updated EmailJS Template ID
+                'template_ttpebks',  // Your EmailJS Template ID
                 templateParams,
                 'Hlv4jON0yap-umwVG'  // Your EmailJS Public Key
             );
 
             console.log('Email successfully sent!');
-            clearInput();
+            clearInput(); // Clear the form after successful submission
         } catch (error) {
             const { response } = error;
 
