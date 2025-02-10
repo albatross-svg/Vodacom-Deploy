@@ -44,7 +44,10 @@ const NavBar = () => {
                     <HashLink smooth to="/#about" className="text-blue-900 hover:text-gray-600 transition">About</HashLink>
                     <HashLink smooth to="/#services" className="text-blue-900 hover:text-gray-600 transition">Services</HashLink>
                     <HashLink smooth to="/#portfolio" className="text-blue-900 hover:text-gray-600 transition">Portfolio</HashLink>
-                    <HashLink smooth to="/#contact" className="text-blue-900 hover:text-gray-600 transition">Contact Us</HashLink>
+                    <HashLink smooth to="/#contact" scroll={(el) => el.scrollIntoView({ behavior: "smooth", block: "start" })}>
+    Contact Us
+</HashLink>
+
                 </div>
 
                 {/* Mobile Navigation */}
@@ -53,7 +56,10 @@ const NavBar = () => {
                     <HashLink smooth to="/#about" className="text-blue-900 hover:text-gray-600 transition py-2">About</HashLink>
                     <HashLink smooth to="/#services" className="text-blue-900 hover:text-gray-600 transition py-2">Services</HashLink>
                     <HashLink smooth to="/#portfolio" className="text-blue-900 hover:text-gray-600 transition py-2">Portfolio</HashLink>
-                    <HashLink smooth to="/#contact" className="text-blue-900 hover:text-gray-600 transition py-2">Contact Us</HashLink>
+                    <HashLink smooth to="/#contact" scroll={(el) => el.scrollIntoView({ behavior: "smooth", block: "start" })}>
+    Contact Us
+</HashLink>
+
                 </div>
             </div>
         </nav>
