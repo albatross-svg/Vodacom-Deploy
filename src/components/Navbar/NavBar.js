@@ -16,8 +16,8 @@
             float: left;
             display: block;
             color: white;
-            padding: 14px 20px;
             text-align: center;
+            padding: 14px 20px;
             text-decoration: none;
         }
         .navbar a:hover {
@@ -28,12 +28,10 @@
 </head>
 <body>
 
-    <div class="navbar">
-        <a href="home.html">Home</a>
-        <a href="#about">About</a>
-        <a href="#services">Services</a>
-        <a href="#contact">Contact</a>
-    </div>
+<div class="navbar">
+    <a href="index.html">Home</a>
+    <!-- Add other navigation links here -->
+</div>
 
 </body>
 </html>
