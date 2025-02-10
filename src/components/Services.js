@@ -35,28 +35,28 @@ const Services = () => {
 <ul className="list-none pl-0 text-md font-medium space-y-3 mt-4">
     <li className="flex items-start">
         <span className="flex-shrink-0 w-4 h-4 relative mt-1">
-            <span className="w-2 h-2 bg-blue-600 rounded-full absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"></span>
+            <span className="w-2 h-2 bg-blue-900 rounded-full absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"></span>
             <span className="w-4 h-4 border border-blue-600 rounded-full absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"></span>
         </span>
         <span className="pl-3">Local Area Network (LAN) Installation</span>
     </li>
     <li className="flex items-start">
         <span className="flex-shrink-0 w-4 h-4 relative mt-1">
-            <span className="w-2 h-2 bg-blue-600 rounded-full absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"></span>
+            <span className="w-2 h-2 bg-blue-900 rounded-full absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"></span>
             <span className="w-4 h-4 border border-blue-600 rounded-full absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"></span>
         </span>
         <span className="pl-3">Wide Area Network (WAN) Installation</span>
     </li>
     <li className="flex items-start">
         <span className="flex-shrink-0 w-4 h-4 relative mt-1">
-            <span className="w-2 h-2 bg-blue-600 rounded-full absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"></span>
+            <span className="w-2 h-2 bg-blue-900 rounded-full absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"></span>
             <span className="w-4 h-4 border border-blue-600 rounded-full absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"></span>
         </span>
         <span className="pl-3">Wireless Network (Wi-Fi) Setup</span>
     </li>
     <li className="flex items-start">
         <span className="flex-shrink-0 w-4 h-4 relative mt-1">
-            <span className="w-2 h-2 bg-blue-600 rounded-full absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"></span>
+            <span className="w-2 h-2 bg-blue-900 rounded-full absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"></span>
             <span className="w-4 h-4 border border-blue-600 rounded-full absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"></span>
         </span>
         <span className="pl-3">Data Center Ventilation and Air Conditioning System Design and Installation</span>
@@ -81,42 +81,42 @@ const Services = () => {
 <ul className="list-none pl-0 text-md font-medium space-y-3 mt-4">
     <li className="flex items-start">
         <span className="flex-shrink-0 w-4 h-4 relative mt-1">
-            <span className="w-2 h-2 bg-blue-600 rounded-full absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"></span>
+            <span className="w-2 h-2 bg-blue-900 rounded-full absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"></span>
             <span className="w-4 h-4 border border-blue-600 rounded-full absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"></span>
         </span>
         <span className="pl-3">Telecom Line Installation</span>
     </li>
     <li className="flex items-start">
         <span className="flex-shrink-0 w-4 h-4 relative mt-1">
-            <span className="w-2 h-2 bg-blue-600 rounded-full absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"></span>
+            <span className="w-2 h-2 bg-blue-900 rounded-full absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"></span>
             <span className="w-4 h-4 border border-blue-600 rounded-full absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"></span>
         </span>
         <span className="pl-3">Data Installation (Wired and Wireless/Wi-Fi)</span>
     </li>
     <li className="flex items-start">
         <span className="flex-shrink-0 w-4 h-4 relative mt-1">
-            <span className="w-2 h-2 bg-blue-600 rounded-full absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"></span>
+            <span className="w-2 h-2 bg-blue-900 rounded-full absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"></span>
             <span className="w-4 h-4 border border-blue-600 rounded-full absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"></span>
         </span>
         <span className="pl-3">Electrical Installation</span>
     </li>
     <li className="flex items-start">
         <span className="flex-shrink-0 w-4 h-4 relative mt-1">
-            <span className="w-2 h-2 bg-blue-600 rounded-full absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"></span>
+            <span className="w-2 h-2 bg-blue-900 rounded-full absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"></span>
             <span className="w-4 h-4 border border-blue-600 rounded-full absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"></span>
         </span>
         <span className="pl-3">Satellite Dish Installation</span>
     </li>
     <li className="flex items-start">
         <span className="flex-shrink-0 w-4 h-4 relative mt-1">
-            <span className="w-2 h-2 bg-blue-600 rounded-full absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"></span>
+            <span className="w-2 h-2 bg-blue-900 rounded-full absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"></span>
             <span className="w-4 h-4 border border-blue-600 rounded-full absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"></span>
         </span>
         <span className="pl-3">CCTV Security Camera System Installation</span>
     </li>
     <li className="flex items-start">
         <span className="flex-shrink-0 w-4 h-4 relative mt-1">
-            <span className="w-2 h-2 bg-blue-600 rounded-full absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"></span>
+            <span className="w-2 h-2 bg-blue-900 rounded-full absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"></span>
             <span className="w-4 h-4 border border-blue-600 rounded-full absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"></span>
         </span>
         <span className="pl-3">Fire Alarm System Installation</span>
@@ -137,21 +137,21 @@ const Services = () => {
 <ul className="list-none pl-0 text-md font-medium space-y-3 mt-4">
     <li className="flex items-start">
         <span className="flex-shrink-0 w-4 h-4 relative mt-1">
-            <span className="w-2 h-2 bg-blue-600 rounded-full absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"></span>
+            <span className="w-2 h-2 bg-blue-900 rounded-full absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"></span>
             <span className="w-4 h-4 border border-blue-600 rounded-full absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"></span>
         </span>
         <span className="pl-3">Laptop and Desktop Maintenance</span>
     </li>
     <li className="flex items-start">
         <span className="flex-shrink-0 w-4 h-4 relative mt-1">
-            <span className="w-2 h-2 bg-blue-600 rounded-full absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"></span>
+            <span className="w-2 h-2 bg-blue-900 rounded-full absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"></span>
             <span className="w-4 h-4 border border-blue-600 rounded-full absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"></span>
         </span>
         <span className="pl-3">Printer, Copier, and Fax Machine Repair</span>
     </li>
     <li className="flex items-start">
         <span className="flex-shrink-0 w-4 h-4 relative mt-1">
-            <span className="w-2 h-2 bg-blue-600 rounded-full absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"></span>
+            <span className="w-2 h-2 bg-blue-900 rounded-full absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"></span>
             <span className="w-4 h-4 border border-blue-600 rounded-full absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"></span>
         </span>
         <span className="pl-3">Periodic ICT Support under Contractual Agreements</span>
@@ -173,21 +173,21 @@ const Services = () => {
 <ul className="list-none pl-0 text-md font-medium space-y-3 mt-4">
     <li className="flex items-start">
         <span className="flex-shrink-0 w-4 h-4 relative mt-1">
-            <span className="w-2 h-2 bg-blue-600 rounded-full absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"></span>
+            <span className="w-2 h-2 bg-blue-900 rounded-full absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"></span>
             <span className="w-4 h-4 border border-blue-600 rounded-full absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"></span>
         </span>
         <span className="pl-3">PBX System Supply and Installation</span>
     </li>
     <li className="flex items-start">
         <span className="flex-shrink-0 w-4 h-4 relative mt-1">
-            <span className="w-2 h-2 bg-blue-600 rounded-full absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"></span>
+            <span className="w-2 h-2 bg-blue-900 rounded-full absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"></span>
             <span className="w-4 h-4 border border-blue-600 rounded-full absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"></span>
         </span>
         <span className="pl-3">VoIP (Voice over IP) System Setup</span>
     </li>
     <li className="flex items-start">
         <span className="flex-shrink-0 w-4 h-4 relative mt-1">
-            <span className="w-2 h-2 bg-blue-600 rounded-full absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"></span>
+            <span className="w-2 h-2 bg-blue-900 rounded-full absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"></span>
             <span className="w-4 h-4 border border-blue-600 rounded-full absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"></span>
         </span>
         <span className="pl-3">PBX Maintenance and Support</span>
