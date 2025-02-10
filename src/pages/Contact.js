@@ -43,7 +43,7 @@ const Contact = () => {
 
                     <a href="https://www.tiktok.com/@yourtiktok" target="_blank" rel="noreferrer">
                         <img
-                            src="https://img.freepik.com/premium-vector/tik-tok-glitch-icon-social-media-tik-tok-icon-vinnitsa-ukraine-february-22-02-2023_250246-536.jpg?semt=ais_hybrid" // Use the downloaded TikTok logo
+                            src="https://cdn.pixabay.com/photo/2021/06/15/12/28/tiktok-6338429_960_720.png" // Use the downloaded TikTok logo
                             alt="TikTok"
                             className="w-24 h-24 rounded-full shadow-lg hover:scale-110 transition-transform duration-300"
                         />
