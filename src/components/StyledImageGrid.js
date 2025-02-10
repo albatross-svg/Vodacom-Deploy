@@ -1,0 +1,85 @@
+import React, { useState, useEffect } from "react";
+import styled from "styled-components"; // Install with: npm install styled-components
+
+// Styled Components for the grid and images
+const FrameContainer = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  background-color: #ffffff;
+  border: 8px solid #2137b4;
+  border-radius: 16px;
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3);
+  max-width: 520px;
+  margin: 20px auto;
+  overflow: hidden;
+`;
+
+const ImageGrid = styled.div`
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  gap: 5px;
+  width: 100%;
+  height: 400px;
+  padding: 20px;
+  background-color: #6098c0;
+  border-radius: 8px;
+  box-sizing: border-box;
+  overflow: visible;
+`;
+
+const Image = styled.img`
+  width: 90%;
+  height: 90%;
+  object-fit: cover;
+  border: 5px solid #ffffff;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 12px;
+  background-color: #fff;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+
+  &:hover {
+    transform: scale(1.2);
+    box-shadow: 0px 12px 24px rgba(0, 0, 0, 0.5);
+    z-index: 10;
+    position: relative;
+  }
+`;
+
+// Placeholder images (replace with actual image paths)
+const imagePaths = Array.from({ length: 16 }, (_, index) => `https://via.placeholder.com/150?text=Image${index + 1}`);
+
+const shuffleArray = (array) => {
+  let shuffled = [...array];
+  for (let i = shuffled.length - 1; i > 0; i--) {
+    let j = Math.floor(Math.random() * (i + 1));
+    [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+  }
+  return shuffled;
+};
+
+const StyledImageGrid = () => {
+  const [images, setImages] = useState(imagePaths);
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setImages(shuffleArray(imagePaths));
+    }, 4000); // Shuffle every 4 seconds
+
+    return () => clearInterval(interval);
+  }, []);
+
+  return (
+    <FrameContainer>
+      <ImageGrid>
+        {images.map((src, index) => (
+          <Image key={index} src={src} alt={`Shuffled Image ${index + 1}`} />
+        ))}
+      </ImageGrid>
+    </FrameContainer>
+  );
+};
+
+export default StyledImageGrid;
