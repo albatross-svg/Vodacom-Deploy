@@ -8,7 +8,7 @@ const Footer = () => {
             <footer 
                 className="relative bg-gray-100 border-t border-gray-300 shadow-inner"
                 style={{
-                    backgroundImage: "url('/path-to-your-logo.png')",
+                    backgroundImage: "url('https://i.pinimg.com/736x/c2/35/81/c235810c25cc4b138529332bfff45132.jpg')",
                     backgroundSize: "contain",
                     backgroundPosition: "center",
                     backgroundRepeat: "no-repeat",
