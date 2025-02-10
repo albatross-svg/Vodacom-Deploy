@@ -10,7 +10,7 @@ const NavLinks = () => {
             <HashLink className="px-4 font-extrabold text-gray-500 hover:text-blue-900" smooth to="/#services">
                 Services
             </HashLink>
-            <HashLink className="px-4 font-extrabold text-gray-500 hover:text-blue-900" to="/#portfolio">
+            <HashLink className="px-4 font-extrabold text-gray-500 hover:text-blue-900" smooth to="/#portfolio">
                 Portfolio
             </HashLink>
             <HashLink className="px-4 font-extrabold text-gray-500 hover:text-blue-900" to="/contact#contact">
