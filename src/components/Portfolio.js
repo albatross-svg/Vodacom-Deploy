@@ -1,10 +1,24 @@
-import React from 'react';
+
+
+import React, { useEffect } from 'react';
 
 const Portfolio = () => {
+    useEffect(() => {
+        const hash = window.location.hash;
+        if (hash === "#portfolio") {
+            setTimeout(() => {
+                const element = document.getElementById("portfolio");
+                if (element) {
+                    element.scrollIntoView({ behavior: "smooth", block: "start" });
+                }
+            }, 100); // Small delay to ensure correct positioning
+        }
+    }, []);
+
     return (
-        <div className="my-4 py-4" id="portfolio">
+        <div className="my-4 py-4 scroll-mt-24" id="portfolio">
             <h2 className="my-2 text-center text-3xl text-blue-900 uppercase font-bold">
-                Portfolio
+                Products/Portfolio
             </h2>
             <div className="flex justify-center">
                 <div className="w-24 border-b-4 border-blue-900 mb-8"></div>
@@ -38,3 +52,4 @@ const Portfolio = () => {
 };
 
 export default Portfolio;
+
