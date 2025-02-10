@@ -13,22 +13,22 @@ const Portfolio = () => {
             {/* Portfolio Images Section */}
             <div className="grid sm:grid-cols-1 md:grid-cols-3 gap-5 px-4">
                 <div className="flex flex-col items-center">
-                    <div className="w-full h-48 bg-gray-300 flex items-center justify-center rounded-lg shadow-md">
-                        <span className="text-gray-600">Image 1</span>
+                    <div className="w-full max-w-sm aspect-[4/3] bg-gray-300 flex items-center justify-center rounded-lg shadow-md overflow-hidden">
+                        <img src="/path-to-image1.jpg" alt="Portfolio 1" className="w-full h-full object-cover" />
                     </div>
                     <p className="mt-2 text-center font-semibold">Label 1</p>
                 </div>
 
                 <div className="flex flex-col items-center">
-                    <div className="w-full h-48 bg-gray-300 flex items-center justify-center rounded-lg shadow-md">
-                        <span className="text-gray-600">Image 2</span>
+                    <div className="w-full max-w-sm aspect-[4/3] bg-gray-300 flex items-center justify-center rounded-lg shadow-md overflow-hidden">
+                        <img src="/path-to-image2.jpg" alt="Portfolio 2" className="w-full h-full object-cover" />
                     </div>
                     <p className="mt-2 text-center font-semibold">Label 2</p>
                 </div>
 
                 <div className="flex flex-col items-center">
-                    <div className="w-full h-48 bg-gray-300 flex items-center justify-center rounded-lg shadow-md">
-                        <span className="text-gray-600">Image 3</span>
+                    <div className="w-full max-w-sm aspect-[4/3] bg-gray-300 flex items-center justify-center rounded-lg shadow-md overflow-hidden">
+                        <img src="/path-to-image3.jpg" alt="Portfolio 3" className="w-full h-full object-cover" />
                     </div>
                     <p className="mt-2 text-center font-semibold">Label 3</p>
                 </div>
