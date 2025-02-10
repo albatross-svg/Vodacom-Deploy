@@ -1,26 +1,9 @@
 import React, { useState, useEffect } from "react";
+import StyledImageGrid from "./StyledImageGrid"; // Import the styled grid
 
-// Store image paths in an array with .jpeg format
-const imagePaths = [
-  "image1.jpeg",
-  "image2.jpeg",
-  "image3.jpeg",
-  "image4.jpeg",
-  "image5.jpeg",
-  "image6.jpeg",
-  "image7.jpeg",
-  "image8.jpeg",
-  "image9.jpeg",
-  "image10.jpeg",
-  "image11.jpeg",
-  "image12.jpeg",
-  "image13.jpeg",
-  "image14.jpeg",
-  "image15.jpeg",
-  "image16.jpeg",
-];
+// Dynamically import images from the "images" folder
+const imagePaths = Array.from({ length: 16 }, (_, i) => require(`../images/image${i + 1}.jpeg`));
 
-// Function to shuffle images
 const shuffleArray = (array) => {
   let shuffled = [...array];
   for (let i = shuffled.length - 1; i > 0; i--) {
@@ -30,7 +13,7 @@ const shuffleArray = (array) => {
   return shuffled;
 };
 
-const ImageShuffler = () => {
+const ImageFlipper = () => {
   const [images, setImages] = useState(imagePaths);
 
   useEffect(() => {
@@ -42,14 +25,14 @@ const ImageShuffler = () => {
   }, []);
 
   return (
-    <div className="frame-container">
-      <div id="image-grid">
+    <StyledImageGrid> {/* Styled grid wrapper */}
+      <div className="image-grid">
         {images.map((src, index) => (
           <img key={index} src={src} alt={`Shuffled Image ${index + 1}`} />
         ))}
       </div>
-    </div>
+    </StyledImageGrid>
   );
 };
 
-export default ImageShuffler;
+export default ImageFlipper;
