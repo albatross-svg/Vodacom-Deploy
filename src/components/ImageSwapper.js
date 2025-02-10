@@ -1,9 +1,11 @@
 import React, { useState, useEffect } from "react";
-import StyledImageGrid from "./StyledImageGrid"; // Import the styled grid
+import StyledImageGrid from "./StyledImageGrid"; // Styled wrapper
 
-// Dynamically import images from the "images" folder
-const imagePaths = Array.from({ length: 16 }, (_, i) => require(`../images/image${i + 1}.jpeg`));
+// Function to import all images dynamically
+const importAll = (context) => context.keys().map(context);
+const imagePaths = importAll(require.context("../images", false, /\.(jpeg|jpg|png)$/)); // Adjust path if needed
 
+// Function to shuffle images
 const shuffleArray = (array) => {
   let shuffled = [...array];
   for (let i = shuffled.length - 1; i > 0; i--) {
@@ -14,12 +16,14 @@ const shuffleArray = (array) => {
 };
 
 const ImageFlipper = () => {
-  const [images, setImages] = useState(imagePaths);
+  const [images, setImages] = useState([]);
 
   useEffect(() => {
+    setImages(shuffleArray(imagePaths)); // Set shuffled images initially
+
     const interval = setInterval(() => {
-      setImages(shuffleArray(imagePaths));
-    }, 4000); // Shuffle every 4 seconds
+      setImages(shuffleArray(imagePaths)); // Shuffle every 4 seconds
+    }, 4000);
 
     return () => clearInterval(interval);
   }, []);
