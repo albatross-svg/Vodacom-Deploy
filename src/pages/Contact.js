@@ -11,7 +11,7 @@ const Contact = () => {
             <NavBar />
             <div id="contact" className="flex flex-col items-center mt-8 w-full bg-white py-12 lg:py-24">
                 <div className="text-center">
-                    <h1 className="text-4xl font-bold text-blue-900 uppercase">Connect With Us</h1>
+                    <h1 className="text-4xl font-bold text-blue-900 uppercase">Connect Us</h1>
                     <div className="w-24 border-b-4 border-blue-900 my-4 mx-auto"></div>
                 </div>
 
