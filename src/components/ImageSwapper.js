@@ -1,9 +1,26 @@
 import React, { useState, useEffect } from "react";
-import StyledImageGrid from "./StyledImageGrid"; // Styled wrapper
+import StyledImageGrid from "./StyledImageGrid"; // Import the styled grid
 
-// Function to import all images dynamically
-const importAll = (context) => context.keys().map(context);
-const imagePaths = importAll(require.context("../images", false, /\.(jpeg|jpg|png)$/)); // Adjust path if needed
+// Manually import images
+import img1 from "../images/image1.jpeg";
+import img2 from "../images/image2.jpeg";
+import img3 from "../images/image3.jpeg";
+import img4 from "../images/image4.jpeg";
+import img5 from "../images/image5.jpeg";
+import img6 from "../images/image6.jpeg";
+import img7 from "../images/image7.jpeg";
+import img8 from "../images/image8.jpeg";
+import img9 from "../images/image9.jpeg";
+import img10 from "../images/image10.jpeg";
+import img11 from "../images/image11.jpeg";
+import img12 from "../images/image12.jpeg";
+import img13 from "../images/image13.jpeg";
+import img14 from "../images/image14.jpeg";
+import img15 from "../images/image15.jpeg";
+import img16 from "../images/image16.jpeg";
+
+// Store images in an array
+const imagePaths = [img1, img2, img3, img4, img5, img6, img7, img8, img9, img10, img11, img12, img13, img14, img15, img16];
 
 // Function to shuffle images
 const shuffleArray = (array) => {
@@ -16,20 +33,18 @@ const shuffleArray = (array) => {
 };
 
 const ImageFlipper = () => {
-  const [images, setImages] = useState([]);
+  const [images, setImages] = useState(imagePaths); // Initialize with images
 
   useEffect(() => {
-    setImages(shuffleArray(imagePaths)); // Set shuffled images initially
-
     const interval = setInterval(() => {
-      setImages(shuffleArray(imagePaths)); // Shuffle every 4 seconds
+      setImages(shuffleArray(imagePaths)); // Shuffle images every 4 seconds
     }, 4000);
 
     return () => clearInterval(interval);
   }, []);
 
   return (
-    <StyledImageGrid> {/* Styled grid wrapper */}
+    <StyledImageGrid> {/* Use the styled component */}
       <div className="image-grid">
         {images.map((src, index) => (
           <img key={index} src={src} alt={`Shuffled Image ${index + 1}`} />
