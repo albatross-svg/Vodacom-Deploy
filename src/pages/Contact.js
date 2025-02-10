@@ -15,13 +15,13 @@ const Contact = () => {
                     <div className="w-24 border-b-4 border-blue-900 my-4 mx-auto"></div>
                 </div>
 
-                {/* Social Media Buttons with Bigger Logos */}
+                {/* Social Media Buttons with Enhanced Shadow Effects */}
                 <div className="flex space-x-8 mt-8">
                     <a href="https://www.facebook.com/ENLIGHTENEERING/" target="_blank" rel="noreferrer">
                         <img
                             src="https://cdn-icons-png.flaticon.com/512/124/124010.png"
                             alt="Facebook"
-                            className="w-24 h-24 rounded-full shadow-lg hover:scale-110 transition-transform duration-300"
+                            className="w-28 h-28 rounded-full shadow-xl hover:shadow-2xl hover:scale-110 transition-all duration-300"
                         />
                     </a>
 
@@ -29,7 +29,7 @@ const Contact = () => {
                         <img
                             src="https://cdn-icons-png.flaticon.com/512/2111/2111646.png"
                             alt="Telegram"
-                            className="w-24 h-24 rounded-full shadow-lg hover:scale-110 transition-transform duration-300"
+                            className="w-28 h-28 rounded-full shadow-xl hover:shadow-2xl hover:scale-110 transition-all duration-300"
                         />
                     </a>
 
@@ -37,15 +37,15 @@ const Contact = () => {
                         <img
                             src="https://cdn-icons-png.flaticon.com/512/732/732200.png"
                             alt="Gmail"
-                            className="w-24 h-24 rounded-full shadow-lg hover:scale-110 transition-transform duration-300"
+                            className="w-28 h-28 rounded-full shadow-xl hover:shadow-2xl hover:scale-110 transition-all duration-300"
                         />
                     </a>
 
                     <a href="https://www.tiktok.com/@yourtiktok" target="_blank" rel="noreferrer">
                         <img
-                            src="https://cdn.pixabay.com/photo/2021/06/15/12/28/tiktok-6338429_960_720.png" // Use the downloaded TikTok logo
+                            src="https://upload.wikimedia.org/wikipedia/en/a/a9/TikTok_logo_without_text.svg"
                             alt="TikTok"
-                            className="w-24 h-24 rounded-full shadow-lg hover:scale-110 transition-transform duration-300"
+                            className="w-28 h-28 rounded-full shadow-xl hover:shadow-2xl hover:scale-110 transition-all duration-300"
                         />
                     </a>
                 </div>
