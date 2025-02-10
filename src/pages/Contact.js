@@ -43,7 +43,7 @@ const Contact = () => {
 
                     <a href="https://www.tiktok.com/@yourtiktok" target="_blank" rel="noreferrer">
                         <img
-                            src="https://upload.wikimedia.org/wikipedia/commons/a/a9/TikTok_logo_without_text.svg"
+                            src="/assets/tiktok-logo.png" // Use the downloaded TikTok logo
                             alt="TikTok"
                             className="w-24 h-24 rounded-full shadow-lg hover:scale-110 transition-transform duration-300"
                         />
