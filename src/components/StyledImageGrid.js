@@ -1,55 +1,56 @@
 import React, { useState, useEffect } from "react";
-import styled from "styled-components"; // Install with: npm install styled-components
+import styled from "styled-components";
 
-// Styled Components for the grid and images
+// ✅ Styled Components for Frame & Grid
 const FrameContainer = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 5px;
   background-color: #ffffff;
-  border: 8px solid #2137b4;
+  border: 10px solid #2137b4;
   border-radius: 16px;
   box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3);
-  max-width: 520px;
+  width: 500px; /* Ensure proper width */
+  height: 500px;
   margin: 20px auto;
+  padding: 20px;
   overflow: hidden;
 `;
 
 const ImageGrid = styled.div`
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(4, 1fr);
-  gap: 5px;
+  grid-template-columns: repeat(4, 1fr); /* ✅ 4 Columns */
+  grid-template-rows: repeat(4, 1fr); /* ✅ 4 Rows */
+  gap: 10px;
   width: 100%;
-  height: 400px;
-  padding: 20px;
+  height: 100%;
+  padding: 10px;
   background-color: #6098c0;
   border-radius: 8px;
   box-sizing: border-box;
-  overflow: visible;
+  align-items: center;
+  justify-content: center;
 `;
 
 const Image = styled.img`
-  width: 90%;
-  height: 90%;
+  width: 100%;
+  height: 100%;
   object-fit: cover;
-  border: 5px solid #ffffff;
+  border: 4px solid #ffffff;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
   border-radius: 12px;
-  background-color: #fff;
   transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 
   &:hover {
-    transform: scale(1.2);
+    transform: scale(1.1);
     box-shadow: 0px 12px 24px rgba(0, 0, 0, 0.5);
     z-index: 10;
     position: relative;
   }
 `;
 
-// Placeholder images (replace with actual image paths)
-const imagePaths = Array.from({ length: 16 }, (_, index) => `https://via.placeholder.com/150?text=Image${index + 1}`);
+// ✅ Placeholder image links
+const imagePaths = Array.from({ length: 16 }, (_, index) => `https://via.placeholder.com/120?text=Image${index + 1}`);
 
 const shuffleArray = (array) => {
   let shuffled = [...array];
