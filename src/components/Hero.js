@@ -1,32 +1,9 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import { Link } from 'react-router-dom';
 import NavBar from '../components/Navbar/NavBar';
-
-// Import 9 images
-import img1 from '../images/image1.jpg';
-import img2 from '../images/image2.jpg';
-import img3 from '../images/image3.jpg';
-import img4 from '../images/image4.jpg';
-import img5 from '../images/image5.jpg';
-import img6 from '../images/image6.jpg';
-import img7 from '../images/image7.jpg';
-import img8 from '../images/image8.jpg';
-import img9 from '../images/image9.jpg';
-
-const images = [img1, img2, img3, img4, img5, img6, img7, img8, img9]; // Array of images
+import ImageSwapper from '../components/ImageSwapper'; // Import the component
 
 const Hero = () => {
-    const [currentIndex, setCurrentIndex] = useState(0);
-
-    // Auto swap images every 3 seconds
-    useEffect(() => {
-        const interval = setInterval(() => {
-            setCurrentIndex((prevIndex) => (prevIndex + 1) % images.length);
-        }, 3000); // Change every 3 sec
-
-        return () => clearInterval(interval); // Cleanup on unmount
-    }, []);
-
     return (
         <>
             <div className="hero" id="hero">
@@ -49,13 +26,9 @@ const Hero = () => {
                             </div>
                         </div>
 
-                        {/* Right Side: Image Swapper */}
+                        {/* Right Side: Advanced Image Swapper */}
                         <div className="flex lg:justify-end w-full lg:w-1/2 relative" data-aos="fade-up" data-aos-delay="700">
-                            <img 
-                                alt="hero swapper" 
-                                className="rounded-t float-right duration-1000 w-full transition-opacity ease-in-out" 
-                                src={images[currentIndex]} 
-                            />
+                            <ImageSwapper />
                         </div>
                     </div>
                 </div>
