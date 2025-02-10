@@ -1,5 +1,8 @@
 
 
+
+
+
 import React, { useEffect } from 'react';
 
 const Portfolio = () => {
@@ -11,14 +14,14 @@ const Portfolio = () => {
                 if (element) {
                     element.scrollIntoView({ behavior: "smooth", block: "start" });
                 }
-            }, 100); // Small delay to ensure correct positioning
+            }, 100);
         }
     }, []);
 
     return (
         <div className="my-4 py-4 scroll-mt-24" id="portfolio">
             <h2 className="my-2 text-center text-3xl text-blue-900 uppercase font-bold">
-                Portfolio
+                Products/Portfolio
             </h2>
             <div className="flex justify-center">
                 <div className="w-24 border-b-4 border-blue-900 mb-8"></div>
@@ -31,6 +34,7 @@ const Portfolio = () => {
                         <img src="/path-to-image1.jpg" alt="Portfolio 1" className="w-full h-full object-cover" />
                     </div>
                     <p className="mt-2 text-center font-semibold">Label 1</p>
+                    <p className="text-sm text-gray-600 text-center">A brief description of portfolio item 1.</p>
                 </div>
 
                 <div className="flex flex-col items-center">
@@ -38,6 +42,7 @@ const Portfolio = () => {
                         <img src="/path-to-image2.jpg" alt="Portfolio 2" className="w-full h-full object-cover" />
                     </div>
                     <p className="mt-2 text-center font-semibold">Label 2</p>
+                    <p className="text-sm text-gray-600 text-center">A brief description of portfolio item 2.</p>
                 </div>
 
                 <div className="flex flex-col items-center">
@@ -45,6 +50,7 @@ const Portfolio = () => {
                         <img src="/path-to-image3.jpg" alt="Portfolio 3" className="w-full h-full object-cover" />
                     </div>
                     <p className="mt-2 text-center font-semibold">Label 3</p>
+                    <p className="text-sm text-gray-600 text-center">A brief description of portfolio item 3.</p>
                 </div>
             </div>
         </div>
@@ -52,4 +58,5 @@ const Portfolio = () => {
 };
 
 export default Portfolio;
+
 
