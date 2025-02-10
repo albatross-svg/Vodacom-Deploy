@@ -1,3 +1,4 @@
+import '../styles.css'; // Adjust path if needed
 import React, { useState, useEffect } from 'react';
 
 // Import 16 images (adjust accordingly)
