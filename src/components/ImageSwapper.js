@@ -1,5 +1,6 @@
 import React from "react";
-import
+import '../components/styles.css';
+
 
 // Store image paths in an array with .jpeg format
 const images = [
