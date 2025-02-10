@@ -1,11 +1,11 @@
-import '../components/styles.css'; // Adjust path if needed
 import React, { useState, useEffect } from 'react';
+import '../styles.css'; // Adjust path based on your project structure
 
 // Placeholder images (replace with actual image paths)
 const images = Array.from({ length: 16 }, (_, index) => `https://via.placeholder.com/150?text=Image${index + 1}`);
 
 const ImageSwapper = () => {
-    const [currentImages, setCurrentImages] = useState(images.slice(0, 16));
+    const [currentImages, setCurrentImages] = useState(images);
 
     useEffect(() => {
         const interval = setInterval(() => {
@@ -14,9 +14,9 @@ const ImageSwapper = () => {
                 const randomIndex = Math.floor(Math.random() * images.length);
                 const gridIndex = Math.floor(Math.random() * newImages.length);
                 newImages[gridIndex] = images[randomIndex]; // Swap a random image
-                return [...newImages];
+                return newImages;
             });
-        }, 2000); // Change every 2 sec
+        }, 2000); // Change every 2 seconds
 
         return () => clearInterval(interval);
     }, []);
@@ -25,7 +25,7 @@ const ImageSwapper = () => {
         <div className="frame-container">
             <div id="image-grid">
                 {currentImages.map((img, index) => (
-                    <img key={index} src={img} alt={`img-${index}`} />
+                    <img key={index} src={img} alt={`Swapped Image ${index + 1}`} />
                 ))}
             </div>
         </div>
