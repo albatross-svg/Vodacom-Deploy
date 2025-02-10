@@ -5,7 +5,15 @@ import { HashLink } from 'react-router-hash-link';
 const Footer = () => {
     return (
         <>
-            <footer className="relative bg-gradient-to-br from-gray-100 to-gray-200 border-t border-gray-300 shadow-inner">
+            <footer 
+                className="relative bg-gray-100 border-t border-gray-300 shadow-inner"
+                style={{
+                    backgroundImage: "url('/path-to-your-logo.png')",
+                    backgroundSize: "contain",
+                    backgroundPosition: "center",
+                    backgroundRepeat: "no-repeat",
+                }}
+            >
                 <div className="max-w-full mx-auto px-4 sm:px-6 py-12">
 
                     {/* Footer Grid */}
