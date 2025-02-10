@@ -2,6 +2,10 @@ import React from 'react';
 import NavBar from '../components/Navbar/NavBar';
 import Footer from '../components/Footer';
 import { useDocTitle } from '../components/CustomHook';
+import facebookLogo from '../assets/facebook.png'; // Add your logo images in the assets folder
+import telegramLogo from '../assets/telegram.png';
+import gmailLogo from '../assets/gmail.png';
+import tiktokLogo from '../assets/tiktok.png';
 
 const Contact = () => {
     useDocTitle('MLD | Molad e Konsult - Contact Us');
@@ -23,40 +27,22 @@ const Contact = () => {
                     Send Us a Message
                 </a>
 
-                {/* Social Media Buttons */}
-                <div className="flex space-x-4 mt-8">
-                    <a
-                        href="https://www.facebook.com/ENLIGHTENEERING/"
-                        target="_blank"
-                        rel="noreferrer"
-                        className="bg-blue-900 text-white p-3 rounded-full shadow-md hover:bg-blue-800 transition duration-300"
-                    >
-                        <i className="fab fa-facebook-f text-xl"></i>
+                {/* Social Media Buttons with Logos */}
+                <div className="flex space-x-6 mt-8">
+                    <a href="https://www.facebook.com/ENLIGHTENEERING/" target="_blank" rel="noreferrer">
+                        <img src={facebookLogo} alt="Facebook" className="w-16 h-16 rounded-full shadow-lg hover:scale-110 transition-transform duration-300" />
                     </a>
 
-                    <a
-                        href="https://t.me/yourtelegram"
-                        target="_blank"
-                        rel="noreferrer"
-                        className="bg-blue-900 text-white p-3 rounded-full shadow-md hover:bg-blue-800 transition duration-300"
-                    >
-                        <i className="fab fa-telegram-plane text-xl"></i>
+                    <a href="https://t.me/yourtelegram" target="_blank" rel="noreferrer">
+                        <img src={telegramLogo} alt="Telegram" className="w-16 h-16 rounded-full shadow-lg hover:scale-110 transition-transform duration-300" />
                     </a>
 
-                    <a
-                        href="mailto:info@orgname.com"
-                        className="bg-blue-900 text-white p-3 rounded-full shadow-md hover:bg-blue-800 transition duration-300"
-                    >
-                        <i className="fas fa-envelope text-xl"></i>
+                    <a href="mailto:info@orgname.com">
+                        <img src={gmailLogo} alt="Gmail" className="w-16 h-16 rounded-full shadow-lg hover:scale-110 transition-transform duration-300" />
                     </a>
 
-                    <a
-                        href="https://www.tiktok.com/@yourtiktok"
-                        target="_blank"
-                        rel="noreferrer"
-                        className="bg-blue-900 text-white p-3 rounded-full shadow-md hover:bg-blue-800 transition duration-300"
-                    >
-                        <i className="fab fa-tiktok text-xl"></i>
+                    <a href="https://www.tiktok.com/@yourtiktok" target="_blank" rel="noreferrer">
+                        <img src={tiktokLogo} alt="TikTok" className="w-16 h-16 rounded-full shadow-lg hover:scale-110 transition-transform duration-300" />
                     </a>
                 </div>
             </div>
