@@ -19,7 +19,7 @@ const Portfolio = () => {
                                 **Service 1: Network Infrastructure Package**  
                                 We provide comprehensive network solutions to ensure your organization stays connected and efficient. Our services include LAN and WAN installation, Wi-Fi setup, and designing and installing data center ventilation and air conditioning systems.
                                 </p>
-                                {/* <div className="flex justify-center my-4">
+                                { <div className="flex justify-center my-4">
                                     <Link to="/get-demo" className="text-white bg-blue-900 hover:bg-blue-800 inline-flex items-center justify-center w-full px-6 py-3 my-4 text-lg shadow-xl rounded-xl">
                                         Schedule Demo
                                         <svg className="w-4 h-4 ml-1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path fillRule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clipRule="evenodd"></path></svg>
@@ -34,7 +34,7 @@ const Portfolio = () => {
                                 <p className="text-md font-medium leading-5 h-auto md:h-48">
                                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae error nesciunt sunt nam libero. Deserunt fugit perspiciatis voluptatem? Modi similique officia perferendis voluptate est quas dignissimos quaerat recusandae omnis praesentium!
                                 </p>
-                                {/* <div className="flex justify-center my-4">
+                                { <div className="flex justify-center my-4">
                                     <Link to="/get-demo" className="text-white bg-blue-900 hover:bg-blue-800 inline-flex items-center justify-center w-full px-6 py-3 my-4 text-lg shadow-xl rounded-xl">
                                         Schedule Demo
                                         <svg className="w-4 h-4 ml-1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path fillRule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clipRule="evenodd"></path></svg>
@@ -49,7 +49,7 @@ const Portfolio = () => {
                                 <p className="text-md font-medium leading-5 h-auto md:h-48">
                                     Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam, tempore non! Laboriosam est possimus iusto, tenetur quasi omnis eum ipsam, eos assumenda, minima quod sed impedit necessitatibus facere fugiat laudantium.
                                 </p>
-                                {/* <div className="flex justify-center my-4">
+                                { <div className="flex justify-center my-4">
                                     <Link to="/get-demo" className="text-white bg-blue-900 hover:bg-blue-800 inline-flex items-center justify-center w-full px-6 py-3 my-4 text-lg shadow-xl rounded-xl">
                                         Schedule Demo
                                         <svg className="w-4 h-4 ml-1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path fillRule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clipRule="evenodd"></path></svg>
@@ -64,7 +64,7 @@ const Portfolio = () => {
                                 <p className="text-md font-medium leading-5 h-auto md:h-48">
                                     Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo id numquam ullam aut, deserunt labore autem adipisci velit aspernatur libero, maxime illum alias natus exercitationem beatae atque a accusamus enim?
                                 </p>
-                                {/* <div className="flex justify-center my-4">
+                                { <div className="flex justify-center my-4">
                                     <Link to="/get-demo" className="text-white bg-blue-900 hover:bg-blue-800 inline-flex items-center justify-center w-full px-6 py-3 my-4 text-lg shadow-xl rounded-xl">
                                         Schedule Demo
                                         <svg className="w-4 h-4 ml-1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path fillRule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clipRule="evenodd"></path></svg>
