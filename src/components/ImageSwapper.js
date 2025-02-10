@@ -1,35 +1,51 @@
-import React, { useState, useEffect } from 'react';
-import '../styles.css'; // Adjust path based on your project structure
+  
 
-// Placeholder images (replace with actual image paths)
-const images = Array.from({ length: 16 }, (_, index) => `https://via.placeholder.com/150?text=Image${index + 1}`);
+// Store image paths in an array with .jpeg format
+const images = [
+    "image1.jpeg",
+    "image2.jpeg",
+    "image3.jpeg",
+    "image4.jpeg",
+    "image5.jpeg",
+    "image6.jpeg",
+    "image7.jpeg",
+    "image8.jpeg",
+    "image9.jpeg",
+    "image10.jpeg",
+    "image11.jpeg",
+    "image12.jpeg",
+    "image13.jpeg",
+    "image14.jpeg",
+    "image15.jpeg",
+    "image16.jpeg",
+];
 
-const ImageSwapper = () => {
-    const [currentImages, setCurrentImages] = useState(images);
+// Function to shuffle images
+function shuffleArray(array) {
+    for (let i = array.length - 1; i > 0; i--) {
+        let j = Math.floor(Math.random() * (i + 1));
+        [array[i], array[j]] = [array[j], array[i]]; // Swap
+    }
+}
 
-    useEffect(() => {
-        const interval = setInterval(() => {
-            setCurrentImages((prevImages) => {
-                const newImages = [...prevImages];
-                const randomIndex = Math.floor(Math.random() * images.length);
-                const gridIndex = Math.floor(Math.random() * newImages.length);
-                newImages[gridIndex] = images[randomIndex]; // Swap a random image
-                return newImages;
-            });
-        }, 2000); // Change every 2 seconds
+// Function to display images in the grid
+function displayImages() {
+    const grid = document.getElementById("image-grid");
+    grid.innerHTML = ""; // Clear the grid
 
-        return () => clearInterval(interval);
-    }, []);
+    shuffleArray(images); // Shuffle images
 
-    return (
-        <div className="frame-container">
-            <div id="image-grid">
-                {currentImages.map((img, index) => (
-                    <img key={index} src={img} alt={`Swapped Image ${index + 1}`} />
-                ))}
-            </div>
-        </div>
-    );
-};
+    images.forEach((src) => {
+        const img = document.createElement("img");
+        img.src = src;
+        img.alt = "Shuffled Image";
+        grid.appendChild(img);
+    });
+}
 
-export default ImageSwapper;
+// Initial display
+displayImages();
+
+// Shuffle every 4 seconds
+setInterval(displayImages, 4000);
+
