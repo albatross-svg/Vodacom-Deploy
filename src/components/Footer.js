@@ -4,12 +4,21 @@ import { HashLink } from 'react-router-hash-link';
 
 const Footer = () => {
     return (
-        <footer className="bg-gray-100 border-t border-gray-200 py-12">
-            <div className="max-w-6xl mx-auto px-6 lg:px-12">
+        <footer
+            className="bg-gray-100 border-t border-gray-200 py-12 relative"
+            style={{
+                backgroundImage: `url('/path-to-your-company-logo.png')`, // 🔹 Replace with actual logo path
+                backgroundSize: 'contain',
+                backgroundPosition: 'center',
+                backgroundRepeat: 'no-repeat',
+                opacity: 0.1, // 🔹 Adjust opacity as needed
+            }}
+        >
+            <div className="max-w-6xl mx-auto px-6 lg:px-12 relative z-10">
                 {/* Footer Grid Layout */}
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center md:text-left">
                     
-                    {/* 1st Block: MLD Box */}
+                    {/* 1st Block: MLD Box (Left) */}
                     <div className="bg-gray-200 p-8 rounded-lg border-b-4 border-blue-900 shadow-md">
                         <h3 className="text-4xl font-bold text-gray-800 mb-4">MLD</h3>
                         <div className="text-md text-gray-600 font-medium">
@@ -19,8 +28,8 @@ const Footer = () => {
                         </div>
                     </div>
 
-                    {/* 2nd Block: Links */}
-                    <div>
+                    {/* 2nd Block: Links (Centered) */}
+                    <div className="flex flex-col items-center">
                         <h6 className="text-[#013289] text-xl font-bold mb-4">LINKS</h6>
                         <ul className="text-md space-y-2">
                             <li>
@@ -35,8 +44,8 @@ const Footer = () => {
                         </ul>
                     </div>
 
-                    {/* 3rd Block: Our Services */}
-                    <div>
+                    {/* 3rd Block: Our Services (Right-Aligned) */}
+                    <div className="text-right">
                         <h6 className="text-[#013289] text-xl font-bold mb-4">OUR SERVICES</h6>
                         <ul className="text-md space-y-2">
                             <li>
