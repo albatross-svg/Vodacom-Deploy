@@ -1,53 +1,55 @@
-import React from "react";
-import '../components/styles.css';
-
+import React, { useState, useEffect } from "react";
 
 // Store image paths in an array with .jpeg format
-const images = [
-    "image1.jpeg",
-    "image2.jpeg",
-    "image3.jpeg",
-    "image4.jpeg",
-    "image5.jpeg",
-    "image6.jpeg",
-    "image7.jpeg",
-    "image8.jpeg",
-    "image9.jpeg",
-    "image10.jpeg",
-    "image11.jpeg",
-    "image12.jpeg",
-    "image13.jpeg",
-    "image14.jpeg",
-    "image15.jpeg",
-    "image16.jpeg",
+const imagePaths = [
+  "image1.jpeg",
+  "image2.jpeg",
+  "image3.jpeg",
+  "image4.jpeg",
+  "image5.jpeg",
+  "image6.jpeg",
+  "image7.jpeg",
+  "image8.jpeg",
+  "image9.jpeg",
+  "image10.jpeg",
+  "image11.jpeg",
+  "image12.jpeg",
+  "image13.jpeg",
+  "image14.jpeg",
+  "image15.jpeg",
+  "image16.jpeg",
 ];
 
 // Function to shuffle images
-function shuffleArray(array) {
-    for (let i = array.length - 1; i > 0; i--) {
-        let j = Math.floor(Math.random() * (i + 1));
-        [array[i], array[j]] = [array[j], array[i]]; // Swap
-    }
-}
+const shuffleArray = (array) => {
+  let shuffled = [...array];
+  for (let i = shuffled.length - 1; i > 0; i--) {
+    let j = Math.floor(Math.random() * (i + 1));
+    [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+  }
+  return shuffled;
+};
 
-// Function to display images in the grid
-function displayImages() {
-    const grid = document.getElementById("image-grid");
-    grid.innerHTML = ""; // Clear the grid
+const ImageShuffler = () => {
+  const [images, setImages] = useState(imagePaths);
 
-    shuffleArray(images); // Shuffle images
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setImages(shuffleArray(imagePaths));
+    }, 4000); // Shuffle every 4 seconds
 
-    images.forEach((src) => {
-        const img = document.createElement("img");
-        img.src = src;
-        img.alt = "Shuffled Image";
-        grid.appendChild(img);
-    });
-}
+    return () => clearInterval(interval);
+  }, []);
 
-// Initial display
-displayImages();
+  return (
+    <div className="frame-container">
+      <div id="image-grid">
+        {images.map((src, index) => (
+          <img key={index} src={src} alt={`Shuffled Image ${index + 1}`} />
+        ))}
+      </div>
+    </div>
+  );
+};
 
-// Shuffle every 4 seconds
-setInterval(displayImages, 4000);
-
+export default ImageShuffler;
