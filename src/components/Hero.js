@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import NavBar from '../components/Navbar/NavBar';
-import ImageFlipper from '../components/ImageFlipper'; // Import the updated ImageFlipper
+import ImageShuffler from '../components/ImageShuffler'; // Import the ImageShuffler component
 
 const Hero = () => {
     return (
@@ -27,7 +27,7 @@ const Hero = () => {
 
                     {/* Right Side: Image Grid */}
                     <div className="flex lg:justify-end w-full lg:w-1/2 relative" data-aos="fade-up" data-aos-delay="700">
-                        <ImageFlipper /> {/* Now properly styled */}
+                        <ImageShuffler /> {/* Replaced ImageFlipper with ImageShuffler */}
                     </div>
                 </div>
             </div>
